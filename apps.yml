@@ -4,7 +4,7 @@ metadata:
   name: kubedis-dev
   namespace: argocd
 spec:
-  project: default
+  project: kubedis-dev
 
   source:
     repoURL: https://github.com/yenlianglai/KubeDIS.git
