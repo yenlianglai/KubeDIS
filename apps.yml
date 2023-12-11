@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
+  name: kubedis-dev
   namespace: argocd
 spec:
-  project: KubeDIS
+  project: default
 
   source:
     repoURL: https://github.com/yenlianglai/KubeDIS.git
