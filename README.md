@@ -12,3 +12,5 @@ The purpose of this project is to:
  ## Related Materials
 
 - https://blog.jks.coffee/on-premise-self-host-kubernetes-k8s-setup/
+- https://medium.com/mlearning-ai/setting-up-a-local-mlops-dev-environment-part-1-a8b468329819
+- https://github.com/kubeflow/kubeflow
