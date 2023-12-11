@@ -1,4 +1,4 @@
-name: GitHub Actions
+name: Check
 on:
   - push
   - pull_request
