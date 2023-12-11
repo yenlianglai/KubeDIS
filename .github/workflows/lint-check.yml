@@ -1,7 +1,9 @@
 name: Check
+
 on:
   - push
   - pull_request
+
 jobs:
   Lint-Check:
     runs-on: ubuntu-latest

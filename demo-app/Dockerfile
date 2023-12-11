@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . /app
 
 # Install Python and pip
-RUN apt-get update && apt-get install -y python3=3.6 python3-pip=9.0.1 \
+RUN apt-get update && apt-get install -y python=3.10 \
     && rm -rf /var/lib/apt/lists/*
 
 # Install any needed packages specified in requirements.txt
