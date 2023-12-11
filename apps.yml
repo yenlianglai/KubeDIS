@@ -1,18 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kubedis-dev
+  name: kubedis-testing
   namespace: argocd
 spec:
-  project: kubedis-dev
+  project: testing
 
   source:
     repoURL: https://github.com/yenlianglai/KubeDIS.git
     targetRevision: HEAD
-    path: dev
+    path: testing
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: testing
 
   syncPolicy:
     syncOptions:
