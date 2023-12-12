@@ -6,9 +6,10 @@
 
 ## TODO
 1. ~Test on minikube~
-2. Helm chart compatibility
-3. Setup local K8s cluster
-4. argoCD compatibility
+2. Setup Gitlab
+3. Helm chart compatibility
+4. Setup local K8s cluster
+5. argoCD compatibility
 
 ## Repo Description
 This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
