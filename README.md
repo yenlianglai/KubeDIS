@@ -6,7 +6,7 @@
 
 ## TODO
 1. ~Test on minikube~
-2. Helm Chart compatibility
+2. Helm chart compatibility
 3. Setup local K8s cluster
 4. argoCD compatibility
 
