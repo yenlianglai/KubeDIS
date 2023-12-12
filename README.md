@@ -1,5 +1,11 @@
 # KubeDIS
 
+## TODO
+1. ~Test on minikube~
+2. Helm Chart compatibility
+3. Setup local K8s cluster
+4. argoCD compatibility
+
 ## Repo Description
 This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
 
