@@ -10,6 +10,7 @@
 3. Helm chart compatibility
 4. Setup local K8s cluster
 5. argoCD compatibility
+6. KubeFlow
 
 ## Repo Description
 This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
