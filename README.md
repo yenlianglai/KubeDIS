@@ -1,5 +1,9 @@
 # KubeDIS
 
+**The purpose of this project is to:**
+ - Enable MLOps and project deployment using Kubernetes. 
+ - The cluster will be set up in Lab 112A, and it will serve as a platform for deploying and managing machine learning models and other projects.
+
 ## TODO
 1. ~Test on minikube~
 2. Helm Chart compatibility
@@ -9,14 +13,8 @@
 ## Repo Description
 This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
 
- ## Project Description 
- Creating a Local Kubernetes Cluster in Lab 112A for MLOps and future project deployment
- 
-**The purpose of this project is to:**
- - Enable MLOps and project deployment using Kubernetes. 
- - The cluster will be set up in Lab 112A, and it will serve as a platform for deploying and managing machine learning models and other projects.
 
- ## Proposed Architecture
+## Proposed Architecture
 
  Argo + Github action + K8s
 
