@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/yenlianglai/KubeDIS.git
     targetRevision: HEAD
-    path: testing
+    path: testing/app
   destination:
     server: https://kubernetes.default.svc
     namespace: testing
