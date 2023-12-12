@@ -1,7 +1,7 @@
 # KubeDIS
 
 ## Repo Description
-This Repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
+This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
 
  ## Project Description 
  Creating a Local Kubernetes Cluster in Lab 112A for MLOps and future project deployment
