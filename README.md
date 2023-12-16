@@ -38,3 +38,10 @@ This repo serves as a source repo for K8s manifests of applications runs on 112A
 - https://github.com/kubeflow/kubeflow
 
 
+## 雷
+1. swap: swapoff -a && sed -i '/swap/d' /etc/fstab
+
+
+##  Kube Join
+kubeadm join 192.168.50.54:6443 --token alpsqj.xuuruur0v2jh8fwj \
+	--discovery-token-ca-cert-hash sha256:6c81e7d2b94b0b47d5e31625551d650c25255fd795e81b5b962b159a7f327dab 
