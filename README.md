@@ -52,6 +52,8 @@ Nvidia k8s plugin
     - export KUBECONFIG=/etc/kubernetes/admin.conf
     - exit
     - sudo chown -R $USER $HOME/.kube
+3. Worker node not READY:
+    - kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 
 
 ##  Kube Join
