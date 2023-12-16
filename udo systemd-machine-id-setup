@@ -1,0 +1,22 @@
+[0;1;32m●[0m cri-docker.service - CRI Interface for Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/cri-docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Fri 2023-12-15 23:07:59 CST; 30s ago
+TriggeredBy: [0;1;32m●[0m cri-docker.socket
+       Docs: https://docs.mirantis.com
+   Main PID: 1507353 (cri-dockerd)
+      Tasks: 14
+     Memory: 10.3M
+        CPU: 29ms
+     CGroup: /system.slice/cri-docker.service
+             └─1507353 /usr/bin/cri-dockerd --container-runtime-endpoint fd://
+
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Connecting to docker on the Endpoint unix:///var/run/docker.sock"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Start docker client with request timeout 0s"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Hairpin mode is set to none"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Loaded network plugin cni"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Docker cri networking managed by network plugin cni"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Setting cgroupDriver systemd"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Docker cri received runtime config &RuntimeConfig{NetworkConfig:&NetworkConfig{PodCidr:,},}"
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Starting the GRPC backend for the Docker CRI interface."
+12月 15 23:07:59 2080-2 cri-dockerd[1507353]: time="2023-12-15T23:07:59+08:00" level=info msg="Start cri-dockerd grpc backend"
+12月 15 23:07:59 2080-2 systemd[1]: Started CRI Interface for Docker Application Container Engine.
