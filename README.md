@@ -45,7 +45,7 @@ This repo serves as a source repo for K8s manifests of applications runs on 112A
     - export KUBECONFIG=/etc/kubernetes/admin.conf
     - exit
     - sudo chown -R $USER $HOME/.kube
-3. Worker node not READY:
+3. Worker node not READY - reset flannel:
     - kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 
 
