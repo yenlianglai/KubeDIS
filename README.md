@@ -46,7 +46,12 @@ Nvidia k8s plugin
 
 
 ## 雷
-1. swap: swapoff -a && sed -i '/swap/d' /etc/fstab
+1. 關掉swap: swapoff -a && sed -i '/swap/d' /etc/fstab
+2. 重開或第一次設定 kubeadm: 
+    - sudo -s 
+    - export KUBECONFIG=/etc/kubernetes/admin.conf
+    - exit
+    - sudo chown -R $USER $HOME/.kube
 
 
 ##  Kube Join
