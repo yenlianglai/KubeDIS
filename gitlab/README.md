@@ -4,7 +4,7 @@
 
 http://192.168.50.7:7777
 
-user: admin
+user: root
 password: ilovejoung112A
 
 ## install Gitlab 
