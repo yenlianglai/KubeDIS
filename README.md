@@ -52,20 +52,11 @@ Nvidia k8s plugin
     - export KUBECONFIG=/etc/kubernetes/admin.conf
     - exit
     - sudo chown -R $USER $HOME/.kube
-<<<<<<< HEAD
-3. Worker node not READY:
-    -
-=======
 3. Worker node not READY - reset flannel:
     - kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
->>>>>>> 9e00e6182c6e5d55ece3b0a6828c09817f8d8aae
 
 
 ##  Kube Join
 kubeadm join 192.168.50.54:6443 --token alpsqj.xuuruur0v2jh8fwj \
-<<<<<<< HEAD
-	--discovery-token-ca-cert-hash sha256:6c81e7d2b94b0b47d5e31625551d650c25255fd795e81b5b962b159a7f327dab
-=======
 	--discovery-token-ca-cert-hash sha256:6c81e7d2b94b0b47d5e31625551d650c25255fd795e81b5b962b159a7f327dab \
     --cri-socket unix:///var/run/cri-dockerd.sock
->>>>>>> 9e00e6182c6e5d55ece3b0a6828c09817f8d8aae
