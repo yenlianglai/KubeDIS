@@ -38,6 +38,9 @@ Argo + Github action + K8s
 - https://medium.com/mlearning-ai/setting-up-a-local-mlops-dev-environment-part-1-a8b468329819
 - https://github.com/kubeflow/kubeflow
 
+Argo
+- https://www.arthurkoziel.com/setting-up-argocd-with-helm/
+
 ## 雷 May be
 
 Nvidia k8s plugin
