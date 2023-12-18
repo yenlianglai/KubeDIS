@@ -1,3 +1,16 @@
+# Gitlab setup guide
+
+## Get started
+
+http://192.168.50.7:7777
+
+user: admin
+password: ilovejoung112A
+
+## install Gitlab 
+
+docker compose up -d
+
 ## Set up root password
 
 1. docker exec -ti [image digest] /bin/bash
@@ -10,3 +23,4 @@
 
 ## enable ssh for docker gitlab
 https://forum.gitlab.com/t/git-clone-over-ssh/77148/5
+
