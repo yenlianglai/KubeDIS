@@ -7,3 +7,6 @@
 5. user.password_confirmation = 'ilovejoung112A'
 6. user.save
 7. exit
+
+## enable ssh for docker gitlab
+https://forum.gitlab.com/t/git-clone-over-ssh/77148/5
