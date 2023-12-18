@@ -8,10 +8,10 @@
 ## TODO
 
 1. ~Test on minikube~
-2. Setup Gitlab
+2. ~Setup Gitlab~
 3. Helm chart compatibility
-4. Setup local K8s cluster
-5. argoCD compatibility
+4. ~Setup local K8s cluster~
+5. ~argoCD compatibility~ (public Gitlab project is now compatible)
 6. KubeFlow
 
 ## Repo Description
