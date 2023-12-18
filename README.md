@@ -18,6 +18,8 @@
 
 This repo serves as a source repo for K8s manifests of applications runs on 112A local Kubernetes cluster.
 
+[Check the sub READMEs for details.]
+
 ## Proposed Architecture
 
 Argo + Github action + K8s
