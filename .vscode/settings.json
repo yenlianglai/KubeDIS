@@ -1,4 +1,7 @@
 {
   "editor.defaultFormatter": "redhat.vscode-yaml",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": false,
+  "[hosts]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
