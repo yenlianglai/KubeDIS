@@ -1,4 +1,4 @@
-# Gitlab setup guide
+# Setup with docker
 
 ## Get started
 
@@ -24,3 +24,11 @@ docker compose up -d
 ## enable ssh for docker gitlab
 https://forum.gitlab.com/t/git-clone-over-ssh/77148/5
 
+
+
+# Setup with Helm
+
+## Useful material
+
+1. https://blog.csdn.net/networken/article/details/132113051s
+2. https://ost.51cto.com/posts/12308
