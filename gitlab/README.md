@@ -24,3 +24,5 @@ docker compose up -d
 ## enable ssh for docker gitlab
 https://forum.gitlab.com/t/git-clone-over-ssh/77148/5
 
+
+https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/baremetal.md
