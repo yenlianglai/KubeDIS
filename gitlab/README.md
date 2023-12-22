@@ -32,3 +32,4 @@ https://forum.gitlab.com/t/git-clone-over-ssh/77148/5
 
 1. https://blog.csdn.net/networken/article/details/132113051s
 2. https://ost.51cto.com/posts/12308
+3. https://github.com/kubernetes/ingress-nginx/blob/main/docs/deploy/baremetal.md
