@@ -1,0 +1,46 @@
+version: '3.6'
+services:
+  registry:
+    image: registry
+    restart: always
+    expose:
+      - '5000'
+    ports:
+      - '5000:5000'
+    volumes:
+      - ./gitlab/shared/registry:/registry
+      - ./certs:/certs
+    environment:
+      - REGISTRY_LOG_LEVEL=info
+      - REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY=/registry
+      - REGISTRY_AUTH_TOKEN_REALM=https://registry.112a.internal/jwt/auth
+      - REGISTRY_AUTH_TOKEN_SERVICE=container_registry
+      - REGISTRY_AUTH_TOKEN_ISSUER=gitlab-issuer
+      - REGISTRY_AUTH_TOKEN_ROOTCERTBUNDLE=/certs/registry.crt
+      - REGISTRY_STORAGE_DELETE_ENABLED=true
+  web:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    hostname: 'gitlab.112a.internal'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://gitlab.112a.internal'
+        registry_external_url 'http://gitlab.112a.internal:5678'
+        gitlab_rails['gitlab_shell_ssh_port'] = 2223
+        registry_nginx['ssl_certificate'] = "/home/joung/code/KubeDIS/gitlab/registry.112a.internal.crt"
+        registry_nginx['ssl_certificate_key'] = "/home/joung/code/KubeDIS/gitlab/registry.112a.internal.key"
+        registry['enable'] = true
+        registry['env'] = {
+          "REGISTRY_HTTP_RELATIVEURLS" => true
+        }
+    ports:
+      - '8080:80'
+      - '4443:443'
+      - '2223:22'
+      - '5678:5678'
+    volumes:
+      - '$GITLAB_HOME/config:/etc/gitlab'
+      - '$GITLAB_HOME/logs:/var/log/gitlab'
+      - '$GITLAB_HOME/data:/var/opt/gitlab'
+      - ./certs:/certs
+    shm_size: '256m'

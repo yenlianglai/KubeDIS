@@ -1,5 +1,8 @@
 192.168.50.99   mikasa
 192.168.50.54   2080-2
-192.168.50.7    joung-Z390-AORUS-ELITE
+192.168.50.6    ymir
 192.168.50.189  WAHAHA
-192.168.50.219  eren
+192.168.50.44	eren
+
+192.168.50.54   registry.112a.internal
+192.168.50.54   gitlab.112a.internal
