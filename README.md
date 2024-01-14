@@ -63,8 +63,5 @@ Nvidia k8s plugin
 
 ##  Kube Join
 ```
-kubeadm join 192.168.50.54:6443
-    --token 2zka9p.lqrv7p1hfdr07u09 \
-    --discovery-token-ca-cert-hash sha256:ea2642699703bdbeed710eafd1539b8fa32e1fda7b11938446609408478b2dd2 \
-    --cri-socket unix:///var/run/cri-dockerd.sock
+kubeadm join 192.168.50.54:6443 --token rbyuqt.ey7p6dd4bin5br8r --discovery-token-ca-cert-hash sha256:ea2642699703bdbeed710eafd1539b8fa32e1fda7b11938446609408478b2dd2 --cri-socket unix:///var/run/cri-dockerd.sock
 ```
