@@ -10,9 +10,12 @@
 1. ~Test on minikube~
 2. ~Setup Gitlab~
 3. Helm chart compatibility
-4. ~Setup local K8s cluster~
-5. ~argoCD compatibility~ (public Gitlab project is now compatible)
-6. KubeFlow
+4. ~~Setup local K8s cluster~~
+5. ~~argoCD compatibility~~ (public Gitlab project is now compatible)
+6. ~~fixed IP for all the nodes~~
+7. write an easy script for kubeadm join
+8. ~~nginx for argo host~~
+9. KubeFlow
 
 ## Repo Description
 
@@ -58,10 +61,10 @@ Nvidia k8s plugin
     - exit
     - sudo chown -R $USER $HOME/.kube
 3. Worker node not READY - reset flannel:
-    - kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+    - helm upgrade -n kube-flannel flannel flannel/flannel
 
 
 ##  Kube Join
 ```
-kubeadm join 192.168.50.54:6443 --token rbyuqt.ey7p6dd4bin5br8r --discovery-token-ca-cert-hash sha256:ea2642699703bdbeed710eafd1539b8fa32e1fda7b11938446609408478b2dd2 --cri-socket unix:///var/run/cri-dockerd.sock
+kubeadm join 192.168.50.54:6443 --token clcau5.gdr8xerg706spa2l --discovery-token-ca-cert-hash sha256:ea2642699703bdbeed710eafd1539b8fa32e1fda7b11938446609408478b2dd2 --cri-socket unix:///var/run/cri-dockerd.sock
 ```
