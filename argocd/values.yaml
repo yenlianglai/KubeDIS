@@ -330,6 +330,10 @@ configs:
       [ssh.github.com]:443 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
       [ssh.github.com]:443 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
       [ssh.github.com]:443 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=
+      [gitlab.112a.internal]:2223 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCvwFktySoV3qu0prfiJOoVHZ9gMPX2DQLXpf7wySIdQ4bBwglp5DpClxpK7TxcnNhPRoXOgWQIqRX3X62VrdLTrketAcvktSfL592KkkdthjB6978WTcdOuAsrPDDYflnSIBm4i2EGRxsnGILQIHPkgqRAblrMgSQnfufKVw+kwl8NgFsxfGABMTW7im6p36LicNCm3nEfDFRIJ7LeS/gid7YLv+BdDuNFXh9WIqdYlAuSWXlDJGoT4KZjtHALerMJKIephc+/fpWZ4CRIWSyex2w8s5KzGcZ5jj4Bkf+NCX4ITsdZDZUsSyPAtipiBrkxKk4mZWPH34AL9ssqvkiZBEcGfasEUrr6IhiVVWZSUAI1awCSu5toN7PuZ2N6icXxh1ZcWfqJ3TfyMMEyXbL7JZGLPC9HDAOLDYmyBWkdSsUTXdnQHD4e35rrMyBgcO7AmEiYRIP8e5B+gCGg3S5q+0VgeKQ7WfCquPYI3KLgU13ASjhuUJHJq0x46mXKRqs=
+      [gitlab.112a.internal]:2223 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBM7wLUYwCVInWXFT6WAVtUGl/0b6BZL8I9kwJQFb/4Z+sjmk1uwIu8/bWICH4L6sstnYxo9FGiEAwF1q/Sns3C4=
+      [gitlab.112a.internal]:2223 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIkYKpCpQt1J6xJ1JIu4kwrfZyQjslzxAbVz6r2OVA2O
+      gitlab.112a.internal ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAS1az/R2f1Ton6b/n6aS4weW6J1ZhGRCiT7yK3CC3KI
       bitbucket.org ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPIQmuzMBuKdWeF4+a2sjSSpBK0iqitSQ+5BM9KhpexuGt20JpTVM7u5BDZngncgrqDMbWdxMWWOGtZ9UgbqgZE=
       bitbucket.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIazEu89wgQZ4bqs3d63QSMzYVa0MuJ2e2gKTKqu+UUO
       bitbucket.org ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDQeJzhupRu0u0cdegZIa8e86EG2qOCsIsD1Xw0xSeiPDlCr7kq97NLmMbpKTX6Esc30NuoqEEHCuc7yWtwp8dI76EEEB1VqY9QJq6vk+aySyboD5QF61I/1WeTwu+deCbgKMGbUijeXhtfbxSxm6JwGrXrhBdofTsbKRUsrN1WoNgUa8uqN1Vx6WAJw1JHPhglEGGHea6QICwJOAr/6mrui/oB7pkaWKHj3z7d1IC4KWLtY47elvjbaTlkN04Kc/5LFEirorGYVbt15kAUlqGM65pk6ZBxtaO3+30LVlORZkxOh+LKL/BvbZ/iRNhItLqNyieoQj/uh/7Iv4uyH/cV/0b4WDSd3DptigWq84lJubb9t/DnZlrJazxyDCulTmKdOR7vs9gMTo+uoIrPSb8ScTtvw65+odKAlBj59dhnVp9zd7QUojOpXlL62Aw56U4oO+FALuevvMjiWeavKhJqlR7i5n9srYcrNV7ttmDw7kf/97P5zauIhxcjX+xHv4M=
@@ -452,7 +456,7 @@ configs:
 
   # -- Repository credentials to be used as Templates for other repos
   ## Creates a secret for each key/value specified below to create repository credentials
-  credentialTemplates: {}
+  credentialTemplates:
     # github-enterprise-creds-1:
     #   url: https://github.com/argoproj
     #   githubAppID: 1
@@ -462,16 +466,20 @@ configs:
     #     -----BEGIN OPENSSH PRIVATE KEY-----
     #     ...
     #     -----END OPENSSH PRIVATE KEY-----
-    # https-creds:
-    #   url: https://github.com/argoproj
-    #   password: my-password
-    #   username: my-username
-    # ssh-creds:
-    #  url: git@github.com:argoproj-labs
-    #  sshPrivateKey: |
-    #    -----BEGIN OPENSSH PRIVATE KEY-----
-    #    ...
-    #    -----END OPENSSH PRIVATE KEY-----
+    https-creds:
+      url: http://gitlab.112a.internal/berserk
+      password: ilovejoung<3
+      username: root
+    ssh-creds:
+     url: git@gitlab.112a.internal:2223/berserk
+     sshPrivateKey: |
+        -----BEGIN OPENSSH PRIVATE KEY-----
+        b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        QyNTUxOQAAACDNAsiz+utFu2crkOXQnp5lsXUNkXXrSUr0iR7si7FWwQAAAJhOiD+QTog/
+        kAAAAAtzc2gtZWQyNTUxOQAAACDNAsiz+utFu2crkOXQnp5lsXUNkXXrSUr0iR7si7FWwQ
+        AAAECM18GHQmSA8Jj4kFbpeMF+nmLa9U3hFYDVYpKGjUMvTs0CyLP660W7ZyuQ5dCenmWx
+        dQ2RdetJSvSJHuyLsVbBAAAAFGFyZ29jZEAxMTJhLmludGVybmFsAQ==
+        -----END OPENSSH PRIVATE KEY-----
 
   # -- Annotations to be added to `configs.credentialTemplates` Secret
   credentialTemplatesAnnotations: {}
@@ -1916,10 +1924,11 @@ server:
     # -- Enable an ingress resource for the Argo CD server
     enabled: true
     # -- Additional ingress annotations
-    annotations: {
-      nginx.ingress.kubernetes.io/ssl-passthrough: "true",
-      nginx.ingress.kubernetes.io/force-ssl-redirect: "true",
-    }
+    annotations: 
+      nginx.ingress.kubernetes.io/backend-protocol: "HTTP"
+      nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+      nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    
     # -- Additional ingress labels
     labels: {}
     # -- Defines which ingress controller will implement the resource
@@ -1930,7 +1939,7 @@ server:
     ## Hostnames must be provided if Ingress is enabled.
     ## Secrets must be manually created in the namespace
     hosts: 
-      - argocd-112a.com
+      - argocd.112a.internal
 
     # -- List of ingress paths
     paths:
@@ -1954,7 +1963,7 @@ server:
       #     - argocd.example.com
 
     # -- Uses `server.service.servicePortHttps` instead `server.service.servicePortHttp`
-    https: true
+    https: false
 
   # dedicated ingress for gRPC as documented at
   # Ref: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/
